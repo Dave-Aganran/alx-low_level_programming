@@ -5,14 +5,17 @@
  * @c: input character.
  * Return: 1 if is an uppercase character, 0 in other case.
  */
-int _isupper(int c)
+int _isupper(void)
 {
-	if (c >= 65 && c <= 90)
-	{
-		return (1);
+	char c;
+if (c=='A')
+{
+    c = 'A';
+    printf("%c: %d\n", c, _isupper(c));
+}
+	else {
+    c = 'a';
+    printf("%c: %d\n", c, _isupper(c));
 	}
-	else
-	{
-		return (0);
-	}
+    return (0);
 }
