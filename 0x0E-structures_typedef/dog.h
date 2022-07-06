@@ -1,6 +1,6 @@
 @@ -1,29 +1,30 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef _DOG_H_
+#define _DOG_H_
 
 struct dog
 {
